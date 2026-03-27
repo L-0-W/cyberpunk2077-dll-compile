@@ -18,7 +18,7 @@ jobs:
       run: |
         cmake -S . -B build `
           -G Ninja `
-          -DCMAKE_C_COMPILER=cl `
+          -DCMAKE_CXX_COMPILER="C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.33830/bin/Hostx64/x64/cl.exe" `
           -DCMAKE_EXPORT_COMPILE_COMMANDS=ON `
           -DCMAKE_BUILD_TYPE=Release
 
