@@ -13,6 +13,8 @@ struct Animal : IScriptable
 
 TTypedClass<Animal> cls("Animal");
 
+//a
+
 CClass* Animal::GetNativeType()
 {
     return &cls;
