@@ -1,296 +1,296 @@
 [
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DAnimalMod_EXPORTS -DRED4EXT_STATIC_LIB -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /FoCMakeFiles/AnimalMod.dir/src/main.cpp.obj /FdCMakeFiles/AnimalMod.dir/ /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/src/main.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/src/main.cpp",
-    "output": "CMakeFiles\\AnimalMod.dir\\src\\main.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Api/v1/FileVer.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Api/v1/FileVer.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Api/v1/FileVer.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Api\\v1\\FileVer.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Api/v1/SemVer.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Api/v1/SemVer.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Api/v1/SemVer.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Api\\v1\\SemVer.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Buffer.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Buffer.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Buffer.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Buffer.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/CName.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/CName.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/CName.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\CName.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/CNamePool.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/CNamePool.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/CNamePool.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\CNamePool.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/CString.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/CString.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/CString.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\CString.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Dump/Reflection.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Dump/Reflection.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Dump/Reflection.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Dump\\Reflection.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/GameEngine.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/GameEngine.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/GameEngine.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GameEngine.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/GpuApi/CommandListContext.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/GpuApi/CommandListContext.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/GpuApi/CommandListContext.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GpuApi\\CommandListContext.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/GpuApi/D3D12MemAlloc.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/GpuApi/D3D12MemAlloc.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/GpuApi/D3D12MemAlloc.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GpuApi\\D3D12MemAlloc.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/GpuApi/DeviceData.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/GpuApi/DeviceData.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/GpuApi/DeviceData.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GpuApi\\DeviceData.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Hashing/Murmur3.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Hashing/Murmur3.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Hashing/Murmur3.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Hashing\\Murmur3.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/IO/BaseStream.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/IO/BaseStream.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/IO/BaseStream.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\IO\\BaseStream.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/ISerializable.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/ISerializable.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/ISerializable.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\ISerializable.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/JobQueue.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/JobQueue.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/JobQueue.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\JobQueue.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/LaunchParameters.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/LaunchParameters.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/LaunchParameters.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\LaunchParameters.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Memory/Vault.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Memory/Vault.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Memory/Vault.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Memory\\Vault.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Mutex.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Mutex.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Mutex.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Mutex.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/NativeTypes.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/NativeTypes.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/NativeTypes.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\NativeTypes.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Package.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Package.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Package.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Package.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/RTTISystem.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/RTTISystem.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/RTTISystem.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\RTTISystem.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/RTTITypes.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/RTTITypes.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/RTTITypes.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\RTTITypes.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Relocation.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Relocation.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Relocation.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Relocation.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/RenderProxy.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/RenderProxy.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/RenderProxy.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\RenderProxy.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/ResourceDepot.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/ResourceDepot.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/ResourceDepot.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\ResourceDepot.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/ResourceLoader.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/ResourceLoader.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/ResourceLoader.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\ResourceLoader.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/CProperty.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/CProperty.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/CProperty.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\CProperty.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Functions.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Functions.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Functions.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Functions.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/IScriptable.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/IScriptable.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/IScriptable.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\IScriptable.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Natives.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Natives/GameTime.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/GameTime.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/GameTime.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\GameTime.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Natives/IUpdatableSystem.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/IUpdatableSystem.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/IUpdatableSystem.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\IUpdatableSystem.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Natives/ScriptGameInstance.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/ScriptGameInstance.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/ScriptGameInstance.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\ScriptGameInstance.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Natives/gameIAttachmentSlotsListener.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/gameIAttachmentSlotsListener.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/gameIAttachmentSlotsListener.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\gameIAttachmentSlotsListener.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Natives/gameIGameSystem.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/gameIGameSystem.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/gameIGameSystem.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\gameIGameSystem.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Natives/gamePersistentState.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/gamePersistentState.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/gamePersistentState.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\gamePersistentState.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Natives/redTagList.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/redTagList.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Natives/redTagList.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\redTagList.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/OpcodeHandlers.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/OpcodeHandlers.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/OpcodeHandlers.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\OpcodeHandlers.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Script.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Script.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Script.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Script.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/ScriptReport.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/ScriptReport.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/ScriptReport.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\ScriptReport.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Stack.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Stack.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Stack.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Stack.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/Scripting/Utils.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Utils.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/Scripting/Utils.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Utils.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/SharedSpinLock.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/SharedSpinLock.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/SharedSpinLock.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\SharedSpinLock.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/SpinLock.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/SpinLock.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/SpinLock.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\SpinLock.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/StringView.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/StringView.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/StringView.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\StringView.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/SystemUpdate.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/SystemUpdate.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/SystemUpdate.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\SystemUpdate.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/TLS.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/TLS.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/TLS.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\TLS.cpp.obj"
-  },
-  {
-    "directory": "/home/low/Desktop/cyberpunk2077-dll-compile/build",
-    "command": "clang++ /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/include -I/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/vendor/D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/src/TweakDB.cpp.obj /Fd_deps/red4ext_sdk-build/CMakeFiles/RED4ext.SDK.dir/RED4ext.SDK.pdb /FS -c /home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/TweakDB.cpp",
-    "file": "/home/low/Desktop/cyberpunk2077-dll-compile/build/_deps/red4ext_sdk-src/src/TweakDB.cpp",
-    "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\TweakDB.cpp.obj"
-  }
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DAnimalMod_EXPORTS -DRED4EXT_STATIC_LIB -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /FoCMakeFiles\\AnimalMod.dir\\src\\main.cpp.obj /FdCMakeFiles\\AnimalMod.dir\\ /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\src\\main.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\src\\main.cpp",
+  "output": "CMakeFiles\\AnimalMod.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Api\\v1\\FileVer.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Api\\v1\\FileVer.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Api\\v1\\FileVer.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Api\\v1\\FileVer.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Api\\v1\\SemVer.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Api\\v1\\SemVer.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Api\\v1\\SemVer.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Api\\v1\\SemVer.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Buffer.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Buffer.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Buffer.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Buffer.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\CName.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\CName.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\CName.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\CName.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\CNamePool.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\CNamePool.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\CNamePool.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\CNamePool.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\CString.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\CString.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\CString.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\CString.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Dump\\Reflection.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Dump\\Reflection.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Dump\\Reflection.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Dump\\Reflection.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GameEngine.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\GameEngine.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\GameEngine.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GameEngine.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GpuApi\\CommandListContext.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\GpuApi\\CommandListContext.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\GpuApi\\CommandListContext.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GpuApi\\CommandListContext.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GpuApi\\D3D12MemAlloc.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\GpuApi\\D3D12MemAlloc.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\GpuApi\\D3D12MemAlloc.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GpuApi\\D3D12MemAlloc.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GpuApi\\DeviceData.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\GpuApi\\DeviceData.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\GpuApi\\DeviceData.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\GpuApi\\DeviceData.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Hashing\\Murmur3.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Hashing\\Murmur3.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Hashing\\Murmur3.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Hashing\\Murmur3.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\IO\\BaseStream.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\IO\\BaseStream.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\IO\\BaseStream.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\IO\\BaseStream.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\ISerializable.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\ISerializable.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\ISerializable.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\ISerializable.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\JobQueue.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\JobQueue.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\JobQueue.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\JobQueue.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\LaunchParameters.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\LaunchParameters.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\LaunchParameters.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\LaunchParameters.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Memory\\Vault.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Memory\\Vault.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Memory\\Vault.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Memory\\Vault.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Mutex.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Mutex.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Mutex.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Mutex.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\NativeTypes.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\NativeTypes.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\NativeTypes.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\NativeTypes.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Package.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Package.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Package.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Package.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\RTTISystem.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\RTTISystem.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\RTTISystem.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\RTTISystem.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\RTTITypes.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\RTTITypes.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\RTTITypes.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\RTTITypes.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Relocation.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Relocation.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Relocation.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Relocation.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\RenderProxy.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\RenderProxy.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\RenderProxy.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\RenderProxy.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\ResourceDepot.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\ResourceDepot.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\ResourceDepot.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\ResourceDepot.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\ResourceLoader.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\ResourceLoader.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\ResourceLoader.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\ResourceLoader.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\CProperty.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\CProperty.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\CProperty.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\CProperty.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Functions.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Functions.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Functions.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Functions.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\IScriptable.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\IScriptable.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\IScriptable.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\IScriptable.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\GameTime.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\GameTime.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\GameTime.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\GameTime.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\IUpdatableSystem.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\IUpdatableSystem.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\IUpdatableSystem.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\IUpdatableSystem.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\ScriptGameInstance.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\ScriptGameInstance.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\ScriptGameInstance.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\ScriptGameInstance.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\gameIAttachmentSlotsListener.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\gameIAttachmentSlotsListener.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\gameIAttachmentSlotsListener.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\gameIAttachmentSlotsListener.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\gameIGameSystem.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\gameIGameSystem.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\gameIGameSystem.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\gameIGameSystem.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\gamePersistentState.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\gamePersistentState.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\gamePersistentState.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\gamePersistentState.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\redTagList.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\redTagList.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Natives\\redTagList.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Natives\\redTagList.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\OpcodeHandlers.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\OpcodeHandlers.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\OpcodeHandlers.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\OpcodeHandlers.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Script.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Script.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Script.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Script.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\ScriptReport.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\ScriptReport.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\ScriptReport.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\ScriptReport.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Stack.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Stack.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Stack.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Stack.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Utils.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Utils.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\Scripting\\Utils.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\Scripting\\Utils.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\SharedSpinLock.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\SharedSpinLock.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\SharedSpinLock.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\SharedSpinLock.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\SpinLock.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\SpinLock.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\SpinLock.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\SpinLock.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\StringView.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\StringView.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\StringView.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\StringView.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\SystemUpdate.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\SystemUpdate.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\SystemUpdate.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\SystemUpdate.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\TLS.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\TLS.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\TLS.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\TLS.cpp.obj"
+},
+{
+  "directory": "D:/a/cyberpunk2077-dll-compile/cyberpunk2077-dll-compile/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DRED4EXT_STATIC_LIB -DWIN32_LEAN_AND_MEAN -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\include -ID:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\vendor\\D3D12MemAlloc /DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\TweakDB.cpp.obj /Fd_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\RED4ext.SDK.pdb /FS -c D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\TweakDB.cpp",
+  "file": "D:\\a\\cyberpunk2077-dll-compile\\cyberpunk2077-dll-compile\\build\\_deps\\red4ext_sdk-src\\src\\TweakDB.cpp",
+  "output": "_deps\\red4ext_sdk-build\\CMakeFiles\\RED4ext.SDK.dir\\src\\TweakDB.cpp.obj"
+}
 ]

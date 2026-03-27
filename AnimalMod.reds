@@ -1,3 +1,4 @@
-public native class Animal extends IScriptable {
-    public native func Talk();
+public native class MyCustomClass extends IScriptable {
+    public native func GetNumber() -> Float
 }
+

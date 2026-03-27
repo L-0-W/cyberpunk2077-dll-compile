@@ -19,6 +19,9 @@ FetchContent_MakeAvailable(red4ext_sdk)
 # Define our plugin DLL
 add_library(AnimalMod SHARED src/main.cpp)
 
+
+target_include_directories(AnimalMod PRIVATE ${PROJECT_SOURCE_DIR}/include)   
+
 # Output directory config
 set_target_properties(AnimalMod PROPERTIES PREFIX "")
 set_target_properties(AnimalMod PROPERTIES SUFFIX ".dll")

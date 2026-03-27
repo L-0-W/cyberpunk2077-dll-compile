@@ -1,3 +1,6 @@
+#include <string>
+#define CPPHTTPLIB_OPENSSL_SUPPORT
+
 #include "RED4ext/Api/ApiVersion.hpp"
 #include "RED4ext/Api/v1/PluginInfo.hpp"
 #include "RED4ext/Api/v1/Runtime.hpp"
@@ -12,6 +15,9 @@
 #include "RED4ext/Scripting/Stack.hpp"
 #include <RED4ext/RED4ext.hpp>
 #include <cstdint>
+#include <httplib.h>
+
+httplib::Client cli("http://localhost:8080");
 
 struct MyCustomClass : RED4ext::IScriptable
 {
@@ -31,7 +37,33 @@ void GetNumber(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, flo
     RED4EXT_UNUSED_PARAMETER(a4);
 
     aFrame->code++;
-    *aOut = 6.25;
+
+    if (auto res = cli.Get("/hi")) 
+    {
+        res->body;
+       *aOut = 6.25;
+       return;
+    } 
+
+    *aOut = 10.0;
+}
+
+void GetWarningText(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, std::string* aOut, int64_t a4)
+{
+    RED4EXT_UNUSED_PARAMETER(aContext);
+    RED4EXT_UNUSED_PARAMETER(a4);
+
+    aFrame->code++;
+
+    if (auto res = cli.Get("/hi")) 
+    {
+    
+        res->body;
+       *aOut = 6.25;
+       return;
+    } 
+
+    *aOut = 10.0;
 }
 
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
@@ -68,7 +100,7 @@ RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::v1::PluginHandle aHandle, RED4e
         rtti->AddRegisterCallback(RegisterTypes);
         rtti->AddPostRegisterCallback(PostRegisterTypes);
         
-        aSdk->logger->Trace(aHandle, "Olá Mundo!");    
+        aSdk->logger->Info(aHandle, "Olá Mundo!");    
         break;
     }
     case RED4ext::v1::EMainReason::Unload:
