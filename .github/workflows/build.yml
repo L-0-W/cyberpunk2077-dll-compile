@@ -19,7 +19,6 @@ jobs:
         cmake -S . -B build `
           -G Ninja `
           -DCMAKE_C_COMPILER=cl `
-          -DCMAKE_CXX_COMPILER=cl `
           -DCMAKE_EXPORT_COMPILE_COMMANDS=ON `
           -DCMAKE_BUILD_TYPE=Release
 
