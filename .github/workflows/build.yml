@@ -13,12 +13,14 @@ jobs:
     - uses: actions/checkout@v4
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v3
+      uses: TheMrMilchmann/setup-msvc-dev@v4.0.0
+
 
     - name: Configure CMake
       run: |
         cmake -S . -B build `
           -G Ninja `
-          -DCMAKE_CXX_COMPILER="C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.33830/bin/Hostx64/x64/cl.exe" `
+          -DCMAKE_CXX_COMPILER=cl.exe `
           -DCMAKE_EXPORT_COMPILE_COMMANDS=ON `
           -DCMAKE_BUILD_TYPE=Release
 
