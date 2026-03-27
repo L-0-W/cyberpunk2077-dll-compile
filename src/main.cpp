@@ -1,5 +1,4 @@
 #include <RED4ext/RED4ext.hpp>
-#include <RED4ext/Scripting/Natives/Generated/IScriptable.hpp>
 #include <RED4ext/Scripting/Natives/ScriptGameInstance.hpp>
 #include <RED4ext/Scripting/IScriptable.hpp>
 #include <RED4ext/RTTITypes.hpp>
