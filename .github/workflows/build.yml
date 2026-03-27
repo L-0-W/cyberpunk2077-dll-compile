@@ -10,16 +10,16 @@ jobs:
     runs-on: windows-latest
     
     steps:
-    - uses: actions/checkout@v4
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2.0.1
 
     - name: Configure CMake
-      run: cmake -S . -B build -G Ninja -DCMAKE_C_COMPILER=cl -DCMAKE_CXX_COMPILER=cl -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Release
+      run: |
+        cmake -S . -B build `
+          -G Ninja `
+          -DCMAKE_EXPORT_COMPILE_COMMANDS=ON `
+          -DCMAKE_BUILD_TYPE=Release
 
     - name: Build
-      run: cmake --build build
-
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: AnimalMod-Build
-        path: build/
+      run: |
+        cmake --build build   
