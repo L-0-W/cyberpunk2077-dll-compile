@@ -55,15 +55,15 @@ void GetWarningText(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame
 
     aFrame->code++;
 
-    if (auto res = cli.Get("/hi")) 
+    if (auto res = cli.Get("/")) 
     {
     
-        res->body;
-       *aOut = 6.25;
+       *aOut = res->body;
        return;
     } 
 
-    *aOut = 10.0;
+    std::string text{"Not Possible"};
+    *aOut = text;
 }
 
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()

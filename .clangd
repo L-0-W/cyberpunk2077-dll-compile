@@ -1,12 +1,19 @@
 CompileFlags:
   Add:
+    # MSVC compatibility - needed for char16_t, wchar_t builtins used by RED4ext
     - "-fms-compatibility"
     - "-fms-extensions"
     - "-fdelayed-template-parsing"
-    - "-std=c++c20"
+    # Define Windows types that RED4ext SDK expects
+    - "-D_WCHAR_T_DEFINED"
+    - "-D_NATIVE_WCHAR_T_DEFINED"
+    # Silence noise from cross-platform headers
     - "-Wno-unknown-pragmas"
     - "-Wno-microsoft-include"
+    - "-Wno-ignored-attributes"
+    - "-Wno-microsoft-anon-tag"
   Remove:
+    # Catch any leftover MSVC-style flags the script may have missed
     - "/nologo"
     - "/TP"
     - "/GR"
@@ -18,9 +25,6 @@ CompileFlags:
     - "/MD"
     - "/Fo*"
     - "/Fd*"
-    - "/Zi"
-    - "/RTC1"
-    - "/GS"
-    - "/W3"
-    - "/WX-"
-    - "/sdl"
+
+Diagnostics:
+  UnusedIncludes: None
