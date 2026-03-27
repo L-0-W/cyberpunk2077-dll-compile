@@ -22,4 +22,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: AnimalMod
-        path: build/Release/AnimalMod.dll
+        path: build/
