@@ -1,15 +1,15 @@
 #include <RED4ext/RED4ext.hpp>
 
-RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::PluginHandle aHandle, RED4ext::EMainReason aReason, const RED4ext::Sdk* aSdk)
+RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::v1::PluginHandle aHandle, RED4ext::v1::EMainReason aReason, const RED4ext::v1::Sdk* aSdk)
 {
     switch (aReason)
     {
-    case RED4ext::EMainReason::Load:
+    case RED4ext::v1::EMainReason::Load:
     {
         aSdk->logger->Trace(aHandle, "Olá Mundo!");
         break;
     }
-    case RED4ext::EMainReason::Unload:
+    case RED4ext::v1::EMainReason::Unload:
     {
         // Free memory, detach hooks.
         // The game's memory is already freed, to not try to do anything with it.
@@ -20,7 +20,7 @@ RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::PluginHandle aHandle, RED4ext::
     return true;
 }
 
-RED4EXT_C_EXPORT void RED4EXT_CALL Query(RED4ext::PluginInfo* aInfo)
+RED4EXT_C_EXPORT void RED4EXT_CALL Query(RED4ext::v1::PluginHandle* aInfo)
 {
     aInfo->name = L"AnimalMod";
     aInfo->author = L"LOW";
