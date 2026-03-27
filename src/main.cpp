@@ -1,19 +1,18 @@
 #include <RED4ext/RED4ext.hpp>
 
-RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::v1::PluginHandle aHandle, RED4ext::v1::EMainReason aReason, const RED4ext::v1::Sdk* aSdk)
+RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::PluginHandle aHandle, RED4ext::EMainReason aReason, const RED4ext::Sdk* aSdk)
 {
-    RED4EXT_UNUSED_PARAMETER(aHandle);
-    
-
     switch (aReason)
     {
-    case RED4ext::v1::EMainReason::Load:
+    case RED4ext::EMainReason::Load:
     {
-        aSdk->logger->Trace(aHandle, "Olá Mundo");
+        aSdk->logger->Trace(aHandle, "Olá Mundo!");
         break;
     }
-    case RED4ext::v1::EMainReason::Unload:
+    case RED4ext::EMainReason::Unload:
     {
+        // Free memory, detach hooks.
+        // The game's memory is already freed, to not try to do anything with it.
         break;
     }
     }
@@ -21,3 +20,16 @@ RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::v1::PluginHandle aHandle, RED4e
     return true;
 }
 
+RED4EXT_C_EXPORT void RED4EXT_CALL Query(RED4ext::PluginInfo* aInfo)
+{
+    aInfo->name = L"AnimalMod";
+    aInfo->author = L"LOW";
+    aInfo->version = RED4EXT_SEMVER(1, 0, 0); // Set your version here.
+    aInfo->runtime = RED4EXT_RUNTIME_LATEST;
+    aInfo->sdk = RED4EXT_SDK_LATEST;
+}
+
+RED4EXT_C_EXPORT uint32_t RED4EXT_CALL Supports()
+{
+    return RED4EXT_API_VERSION_LATEST;
+}
