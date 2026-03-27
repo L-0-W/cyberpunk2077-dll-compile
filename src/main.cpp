@@ -10,8 +10,6 @@ RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::v1::PluginHandle aHandle, RED4e
     case RED4ext::v1::EMainReason::Load:
     {
         aSdk->logger->Trace(aHandle, "Olá Mundo");
-        RED4ext::CRTTISystem::Get()->AddRegisterCallback(RegisterTypes);
-        RED4ext::CRTTISystem::Get()->AddPostRegisterCallback(PostRegisterTypes);
         break;
     }
     case RED4ext::v1::EMainReason::Unload:
